@@ -1,0 +1,427 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    /* padding-top: 70px;  *//* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 10px 0 0 0;
+	background:#dfe5ea;
+	padding:10px 10px 0 10px;
+}
+
+/*====================Shop Homepage HTML Template ENDS=====================================*/
+
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+
+.displayNone{
+	display:none;
+	}
+.lefter{
+	float				: left;
+	display				: inline;
+	width				: auto;
+	}	
+.righter{
+	float				: right;
+	display				: inline;
+	width				: auto;
+	}
+.textAlignLeft{
+	text-align			: left;
+	}
+.textAlignCenter{
+	text-align			: center;
+	}
+.textAlignRight{
+	text-align			: right;
+	}
+
+	a , a:hover{
+    color: #3399cc;
+    text-decoration: none;
+	}
+/*-----*/
+body{
+	background:#fff;
+	}
+
+header > nav{
+	background:#fff;
+    box-shadow: 1px -2px 8px rgba(0, 0, 0, 0.25);
+	}
+	header .navbar{
+	margin-bottom:0;
+	}
+	.navbar-brand{
+	background: url("../images/css/williamsleatag-logo.png") no-repeat 0 center;	
+	text-indent:-9999px;
+	min-width:230px;
+	overflow:hidden;
+	}
+	.userHdNameIcon{
+	padding:10px 20px 0 20px;
+	}
+	.userHdName{
+	padding:15px 20px 0 20px;
+	}
+	.userCartName{
+	padding:15px 0 0 20px;
+	}
+	 
+
+	.bottomSpacer{
+	margin:0 0 12px 0;
+	}
+/*---*/
+.dropdown.open, .dropdown.open:hover,
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    color: #3399cc;
+	}
+	
+.navbar-toggle .icon-bar{
+	background:#000;
+	}
+.alteredBtn{
+	padding:10px 6px;
+	}
+	
+a.list-group-item.active{
+	background:#3399CC;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	}
+/*---*/
+.ctImg{
+	width:95px; height:109px; vertical-align:top;
+	display:inline-block; text-indent:-9999px;
+	}
+.ctImg1{background: url("../images/css/ico_corporategift1.png") no-repeat 0 0;}
+	.ctImg1:hover, .ctImg1.active{background: url("../images/css/ico_corporategift2.png") no-repeat 0 0;}
+.ctImg2{background: url("../images/css/ico_digitalad1.png") no-repeat 0 0;}
+	.ctImg2:hover, .ctImg2.active{background: url("../images/css/ico_digitalad2.png") no-repeat 0 0;}
+.ctImg3{background: url("../images/css/ico_newlaunch1.png") no-repeat 0 0;}
+	.ctImg3:hover, .ctImg3.active{background: url("../images/css/ico_newlaunch2.png") no-repeat 0 0;}
+.ctImg4{background: url("../images/css/ico_newmedia1.png") no-repeat 0 0;}
+	.ctImg4:hover, .ctImg4.active{background: url("../images/css/ico_newmedia2.png") no-repeat 0 0;}
+.ctImg5{background: url("../images/css/ico_print1.png") no-repeat 0 0;}
+	.ctImg5:hover, .ctImg5.active{background: url("../images/css/ico_print2.png") no-repeat 0 0;}
+.ctImg6{background: url("../images/css/ico_readymade1.png") no-repeat 0 0;}
+	.ctImg6:hover, .ctImg6.active{background: url("../images/css/ico_readymade2.png") no-repeat 0 0;}
+.ctImgLast{background: url("../images/css/arrrowformoreicons.png") no-repeat center center;}
+
+.ctImg.active, .ctImg.active:hover{
+	background-color:red;}
+/*---*/
+	 
+	 
+.myBlackBody{
+	background:#42394A ;
+	}
+
+.landingThemeWhiteHeading{
+	color:#fff;
+	}
+	
+.themeItemUnit{
+	border:6px solid #fff;
+	position:relative;
+	}
+.themeItemUnit:hover{
+	border:6px solid #D6D6D6;
+	}
+	.themeItemUnitText{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:1;
+	margin:0;
+	}
+		.themeItemUnitText h4{
+		color:#FF0066;
+		margin:0;
+		padding:6px 6px;
+		} 
+	.themeItemUnit:hover .themeItemUnitImg{
+		opacity: 0.5;
+ 		-moz-opacity: 0.5; 
+		-khtml-opacity: 0.5; 
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		}
+	.themeItemUnit:hover .themeItemUnitText{
+	display:none;
+	}
+	.themeItemUnit:hover .themeItemUnitBgText{ 
+	display:block;
+	position:absolute;
+	top:14%;
+	left:0;
+	z-index:1;
+	width:100%;
+	}
+		.themeItemUnitBgText h4{
+		color:#FF0066;
+		margin:0 0 4px 0;
+		padding:6px 6px 2px 6px;
+		} 
+		.themeItemUnitBgText a{
+		background:#FF0066;
+		color:#fff;
+		padding:2px 6px;
+		line-height:14px;
+		 border-radius: 6px;
+		}
+	.themeItemUnit:hover .themeItemUnitFn{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:1;
+	width:100%;
+	
+	}
+	.themeItemUnitFn{
+	padding:3px 6px;
+	background:#FF0066;
+	color:#fff;
+	}
+		.themeItemUnitTxtBx{
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+		outline: medium none;
+		transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+		 border-radius: 4px;
+		color: #555;
+		display: inline-block;
+		font-size: 14px;
+		height: 26px;
+		line-height: 20px; 
+		outline: medium none;
+		padding: 4px 6px; 
+		}
+	
+
+.prgTitle{
+	color:#FF0066;
+	padding:0 8px 0 12px;
+	}
+	.prgTitleEmptyBox{
+	padding:60px 0 0 0;
+	min-height:152px;
+	background:#efefef;
+	font:20px/24px arial;
+	}
+.prgTitleKitBox{
+	background:#efefef;
+	padding:12px;
+	}
+	.kitTitle{
+	color:#fff;
+	background:#FF0066;
+	padding:3px 8px 3px 12px;
+	margin:2px 0;
+	}
+	
+/*==============================
+	FAQ / HELP  page
+================================ */ 
+.kitUnitTitle{
+	font: 56px/66px "Trade Gothic W01 Light","TradeGothic LT Light",sans-serif;
+    padding:8px 0 12px 0;
+	}
+.kitUnitSubTitle{
+	font: 28px/40px "Trade Gothic W01 Light","TradeGothic LT Light",sans-serif;
+    margin:0 0 15px 0;
+	}
+.kitUnitContainer{
+	/* border: 1px solid #CCCCCC; */
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin:0 0 22px 0;
+	}
+	.kitUnitLink{
+	font:24px/24px "HelveticaNeueW02-55Roma", helvetica, arial, sans-serif;
+	margin:0;
+	}
+	.kitUnitNavLink{
+		position:absolute;
+		right:0;
+		top:10px;
+		z-index:1;
+		display:none;
+		}
+		.kitUnitHeader.expand .kitUnitNavLink{
+		display:block;
+		}
+	.kitUnitContentInner p{
+	color: #585A64;
+    font: 15px/24px "HelveticaNeueW01-45Ligh",helvetica;
+	}
+.kitUnitContentInner{
+	padding:12px 60px 22px 60px;
+	}
+.kitUnitContainer  .kitUnit{
+	border-top:1px solid #ccc;
+	}
+.kitUnitContainer  .kitUnit:first-child {
+   /*  border-top: medium none; */
+}
+.kitUnitHeader{
+	position:relative;
+	}
+.kitUnit .kitUnitHeader:before {
+	background: url(../images/css/icons-sc8bff24e66.png) no-repeat scroll 0 0;
+}
+.kitUnit .kitUnitHeader:before {
+    background-position: 0 -28px;
+    content: "";
+    height: 17px;
+    left: 20px;
+    position: absolute;
+    top: 21px;
+    width: 17px;
+}
+	.kitUnit .kitUnitHeader.expand:before,
+	.kitUnit .kitUnitHeader.expand:hover:before{
+	background-position:0 -45px;
+	}
+.kitUnit .kitUnitHeader.expand,
+.kitUnit .kitUnitHeader:hover {
+	border-left: 4px solid #3399cc; 
+}
+.kitUnit .kitUnitHeader:hover:before {
+    background-position: 0 -11px; 
+    left: 20px; 
+}
+.kitUnit .kitUnitHeader {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border-left:4px solid #FAFAFA;
+    cursor: pointer;
+    font: 15px/24px "Trade Gothic W01 Light","TradeGothic LT Light",sans-serif;
+    padding: 17px 58px;
+    position: relative;
+}
+.kitUnit .kitUnitHeader.expand{
+	background:#fafafa;
+	}
+.kitUnitContent{
+	background:#fafafa;
+	}
+
+/*================================ */ 
+.themePopUpTitle{
+	color:#FF0066;
+	font-size:20px;
+	}
+/*================================ */ 
+.viewPrgKitContainer{
+	min-height:700px;
+	}
+.kitUnit{
+	margin:0 0 16px 0;
+	border: 1px solid #CCCCCC;
+	}
+.kitUnitContent .kitFullUnitBox:last-child{
+	margin:0;
+	}
+.kitFullUnitBox{
+	border:1px solid #ddd;
+	background:#fff;
+	padding:10px 20px;
+	margin:0 0 16px 0;
+	}
+.kitFullUnitBox h4{
+	color:#FF0066;
+	}
+	
+.kitFullUnitBox hr{
+	margin: 0 0 10px 0;
+	}
+/*================================ */ 
+ 
+/*==============================
+	Program/Core Sign In Page
+================================ */
+.programSignInBox{
+	background: #fff;
+	padding: 15px 3%; 
+	margin-top: 8%;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);  
+	-moz-box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);  
+	box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25); 
+	min-height:300px;
+	}  
+.programSignInBox  .signUpFormBox{ 
+	min-height:323px;
+	position:relative;
+	text-align:center;
+	}
+	.programSignInBox  .signUpFormBox .userPageTitle{ 
+	padding:90px 20px 0 20px;
+	text-align:center;
+	}
+	.programSignInBox  .signUpFormBox p{
+	text-align:center;
+	}
+	.programSignInBox  .signUpFormBox .signUpFormBoxLink{
+	margin:0;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	}
+	.programSignInBox  .signUpFormBox .signUpFormBoxLink a{
+	margin:0;
+	}
+/*==============================*/

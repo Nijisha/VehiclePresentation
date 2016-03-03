@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Williams Lea - tag</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS --> 
+    <link href="css/wltUI.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- header starts -->
+	<header class="clearfix">
+	<!-- Navigation -->
+    <nav class="navbar " role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header"> 
+                <a class="navbar-brand" href="index.html">Williams Lea Tag</a>
+            </div> 
+        </div>
+        <!-- /.container -->
+    </nav> 
+	
+	</header>
+<!-- header ends -->
+
+<!-- Page Content --> 
+	
+    <div class="container viewPrgKitContainer">
+	
+		<!-- program signIn form starts --> 
+			<section class="programSignInBox col-md-6 col-md-offset-3 clearfix">
+				<div class="signInFormBox clearfix"> 
+						<h1>Login</h1> <br/>
+						<form class="bs-component" action="index - landing.html">
+							<!-- 
+							<div class="form-group has-error"> 
+							  <label class="control-label" for="un">Username</label>
+							  <input class="form-control" id="un" type="text" value="">
+							</div>
+							<div class="form-group has-error"> 
+							  <label class="control-label" for="pw">Password</label>
+							  <input class="form-control" id="pw" type="password" value="">
+							</div>
+							--> 
+							<div class="form-group"> 
+							  <label class="control-label" for="un">Username</label>
+							  <input class="form-control" id="un" type="text" value="">
+							</div>
+							<div class="form-group">
+							  <label class="control-label" for="pw">Password</label>
+							  <input class="form-control" id="pw" type="password" value="">
+							</div>
+							<br/>
+							<div class="form-group">
+							  <div class="col-lg-12 textAlignCenter">
+								<button type="submit" class="btn btn-info btn-primary">Submit</button>
+								<span>&nbsp;</span>
+								<button type="reset" class="btn  btn-default">Cancel</button>
+							  </div>
+							</div>
+						</form>  
+				</div> 
+			</section>
+			<!-- program signIn form ends -->
+	
+	</div>
+	 
+	
+    <!-- /.container --> 
+	
+	<!-- Footer -->
+	<footer class="clearfix"> 
+			<div class="col-lg-12">
+				<p>Copyright &copy; williams lea tag 2016</p>
+			</div> 
+	</footer>
+	<!-- / Footer -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+<!-- Modal 1 starts-->
+<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title themePopUpTitle" id="myModalLabel">Create New Program</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		  <label class="control-label" for="prgName">Program Name</label>
+		  <input class="form-control" id="prgName" type="text" value="This is focused...">
+		</div>
+        <div class="form-group">
+		  <label class="control-label" for="prgType">Program Type</label>
+			<select class="form-control" id="prgType">
+			  <option>Program Type 1</option>
+			  <option>Program Type 2</option>
+			  <option>Program Type 3</option>
+			  <option>Program Type 4</option>
+			  <option>Program Type 5</option>
+			</select>
+		</div>
+		<div class="control-group" style="display:inline-block !important; margin-bottom: 25px;">
+			<label class="control-label">Start Date</label>
+			<div class="controls">
+				<input type="text" class="form-control" placeholder="Start Date" required>
+			</div>
+		</div>
+		<span>&nbsp;</span>
+		<div class="control-group" style="display:inline-block !important; margin-bottom: 25px;">
+			<label class="control-label">End Date</label>
+			<div class="controls">
+				<input type="text" class="form-control" placeholder="End Date" required>
+			</div>
+		</div>
+        <div class="form-group">
+		  <label class="control-label" for="prgDesc">Program Description</label>
+			<textarea class="form-control" style="resize:none;" rows="3" id="prgDesc"></textarea>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-info btn-sm">Create Program</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 1 ends-->
+<!-- Modal 2 starts-->
+<div class="modal fade" id="myModalkit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title themePopUpTitle" id="myModalLabel">Please add kit then you will be able to add items</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		  <label class="control-label" for="kitName"></label>
+		  <input class="form-control" id="kitName" type="text" value="Kit One">
+		</div>
+        <div class="form-group">
+		  <label class="control-label" for="prgType">Program</label>
+			<select class="form-control" id="prgType">
+			  <option>Program Type 1</option>
+			  <option>Program Type 2</option>
+			  <option>Program Type 3</option>
+			  <option>Program Type 4</option>
+			  <option>Program Type 5</option>
+			</select>
+		</div>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-info btn-sm">Create kit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2 ends-->
+	
+	
+</body>
+
+</html>
