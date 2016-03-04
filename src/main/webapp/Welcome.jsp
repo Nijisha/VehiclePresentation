@@ -16,7 +16,7 @@
 			Application.</h1>
 
 		<br /> <br /> <a href="index.jsp"><h3>Continue.......................</h3></a> <br />
-		<h1>Welcome Demo 9.0.9</h1>
+		<h1>Welcome Demo 10.0.8</h1>
 	</center>
 </body>
 </html>
