@@ -15,7 +15,7 @@
 
 # ELB_LIST defines which Elastic Load Balancers this instance should be part of.
 # The elements in ELB_LIST should be seperated by space.
-ELB_LIST="http://VehicleRe-PublicEl-T7ZHZKQNB1C1-1037825013.ap-southeast-2.elb.amazonaws.com"
+ELB_LIST="http://VehicleRe-PublicEl-KZJNM867PQ7P-1122050792.ap-southeast-2.elb.amazonaws.com"
 
 # Under normal circumstances, you shouldn't need to change anything below this line.
 # -----------------------------------------------------------------------------
